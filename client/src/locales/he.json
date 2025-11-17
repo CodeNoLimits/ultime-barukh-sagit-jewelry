@@ -1,0 +1,127 @@
+{
+  "common": {
+    "currency": "ILS",
+    "loading": "טוען...",
+    "error": "אירעה שגיאה",
+    "addToCart": "הוסף לסל",
+    "viewDetails": "צפה בפרטים",
+    "learnMore": "למד עוד",
+    "shopNow": "קנה עכשיו",
+    "viewCollection": "צפה באוסף",
+    "new": "חדש",
+    "featured": "מומלץ"
+  },
+  "nav": {
+    "home": "בית",
+    "collections": "אוספים",
+    "about": "אודות",
+    "contact": "צור קשר",
+    "cart": "סל"
+  },
+  "hero": {
+    "title": "תכשיטים יהודיים",
+    "subtitle": "אוסף בלעדי",
+    "description": "יצירות ייחודיות החוגגות מורשת ויופי נצחי",
+    "cta": "גלה את האוסף"
+  },
+  "home": {
+    "collectionsTitle": "האוספים שלנו",
+    "collectionsSubtitle": "חקור את מבחר תכשיטי היודאיקה היוקרתיים שלנו",
+    "featuredTitle": "יצירות נבחרות",
+    "featuredSubtitle": "גלה את היצירות האיקוניות ביותר שלנו",
+    "storyTitle": "הסיפור שלנו",
+    "storyDescription": "ברוך שגיא תכשיטים ממשיך מסורת של מצוינות ביצירת תכשיטי יודאיקה יוקרתיים. כל יצירה נוצרת בתשוקה ומומחיות, המשלבת סמליות עתיקה עם עיצוב עכשווי."
+  },
+  "collections": {
+    "title": "אוספים",
+    "all": "הכל",
+    "chai": "חי",
+    "mezuzah": "מזוזה",
+    "starOfDavid": "מגן דוד",
+    "hamsa": "חמסה",
+    "rings": "טבעות",
+    "necklaces": "שרשראות",
+    "bracelets": "צמידים",
+    "earrings": "עגילים",
+    "sortBy": "מיין לפי",
+    "sortNewest": "חדשים",
+    "sortPriceLow": "מחיר: נמוך לגבוה",
+    "sortPriceHigh": "מחיר: גבוה לנמוך",
+    "sortPopular": "פופולרי",
+    "noProducts": "לא נמצאו מוצרים"
+  },
+  "product": {
+    "materials": "חומרים",
+    "culturalSignificance": "משמעות תרבותית",
+    "quantity": "כמות",
+    "inStock": "במלאי",
+    "outOfStock": "אזל מהמלאי",
+    "details": "פרטים",
+    "characteristics": "מאפיינים",
+    "sizeGuide": "מדריך מידות",
+    "shipping": "משלוח והחזרות",
+    "reviews": "ביקורות לקוחות",
+    "noReviews": "אין ביקורות עדיין",
+    "writeReview": "כתוב ביקורת"
+  },
+  "cart": {
+    "title": "סל",
+    "empty": "הסל שלך ריק",
+    "continueShopping": "המשך בקניות",
+    "subtotal": "סכום ביניים",
+    "shipping": "משלוח",
+    "tax": "מס",
+    "total": "סה\"כ",
+    "checkout": "המשך לתשלום",
+    "remove": "הסר",
+    "itemAdded": "פריט נוסף לסל"
+  },
+  "checkout": {
+    "title": "תשלום",
+    "customerInfo": "פרטי לקוח",
+    "name": "שם מלא",
+    "email": "אימייל",
+    "phone": "טלפון",
+    "shippingAddress": "כתובת למשלוח",
+    "address": "כתובת",
+    "city": "עיר",
+    "postalCode": "מיקוד",
+    "country": "מדינה",
+    "payment": "תשלום",
+    "placeOrder": "בצע הזמנה",
+    "orderSummary": "סיכום הזמנה",
+    "processing": "מעבד..."
+  },
+  "about": {
+    "title": "אודות",
+    "subtitle": "מצוינות בתכשיטי יודאיקה",
+    "story": "ברוך שגיא תכשיטים נולד מתוך תשוקה לאומנות יוצאת דופן ומורשת יהודית. כל יצירה היא תוצאה של ידע שעבר מדור לדור, המשלב טכניקות מסורתיות עם עיצוב עכשווי.",
+    "craftsmanship": "אומנות",
+    "craftsmanshipText": "האומנים שלנו עובדים עם המתכות היקרות הטובות ביותר כדי ליצור יצירות ייחודיות שיעמדו במבחן הזמן.",
+    "heritage": "מורשת",
+    "heritageText": "כל תכשיט נושא בתוכו סמלים עתיקים מלאי משמעות ורוחניות.",
+    "quality": "איכות",
+    "qualityText": "אנו בוחרים רק את החומרים האצילים ביותר כדי להבטיח את המצוינות של כל יצירה."
+  },
+  "contact": {
+    "title": "צור קשר",
+    "subtitle": "אנחנו כאן לעזור",
+    "name": "שם",
+    "email": "אימייל",
+    "message": "הודעה",
+    "send": "שלח",
+    "success": "ההודעה נשלחה בהצלחה",
+    "error": "שגיאה בשליחת ההודעה"
+  },
+  "footer": {
+    "description": "תכשיטי יודאיקה יוקרתיים",
+    "navigation": "ניווט",
+    "information": "מידע",
+    "delivery": "משלוח",
+    "returns": "החזרות",
+    "terms": "תנאים",
+    "privacy": "פרטיות",
+    "followUs": "עקוב אחרינו",
+    "copyright": "© 2025 ברוך שגיא תכשיטים. כל הזכויות שמורות."
+  }
+}

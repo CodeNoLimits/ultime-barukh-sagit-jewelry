@@ -1,0 +1,127 @@
+{
+  "common": {
+    "currency": "EUR",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "addToCart": "Ajouter au panier",
+    "viewDetails": "Voir les détails",
+    "learnMore": "En savoir plus",
+    "shopNow": "Acheter maintenant",
+    "viewCollection": "Voir la collection",
+    "new": "Nouveau",
+    "featured": "Sélection"
+  },
+  "nav": {
+    "home": "Accueil",
+    "collections": "Collections",
+    "about": "À propos",
+    "contact": "Contact",
+    "cart": "Panier"
+  },
+  "hero": {
+    "title": "Bijoux Judaïques",
+    "subtitle": "Collection Exclusive",
+    "description": "Des créations uniques qui célèbrent l'héritage et la beauté intemporelle",
+    "cta": "Découvrir la collection"
+  },
+  "home": {
+    "collectionsTitle": "Nos Collections",
+    "collectionsSubtitle": "Explorez notre sélection de bijoux judaïques de luxe",
+    "featuredTitle": "Pièces Sélectionnées",
+    "featuredSubtitle": "Découvrez nos créations les plus emblématiques",
+    "storyTitle": "Notre Histoire",
+    "storyDescription": "Barukh Sagit Jewelry perpétue une tradition d'excellence dans la création de bijoux judaïques de luxe. Chaque pièce est conçue avec passion et savoir-faire, alliant symbolisme ancestral et design contemporain."
+  },
+  "collections": {
+    "title": "Collections",
+    "all": "Tous",
+    "chai": "Chaï",
+    "mezuzah": "Mezouza",
+    "starOfDavid": "Étoile de David",
+    "hamsa": "Hamsa",
+    "rings": "Bagues",
+    "necklaces": "Colliers",
+    "bracelets": "Bracelets",
+    "earrings": "Boucles d'oreilles",
+    "sortBy": "Trier par",
+    "sortNewest": "Nouveautés",
+    "sortPriceLow": "Prix croissant",
+    "sortPriceHigh": "Prix décroissant",
+    "sortPopular": "Popularité",
+    "noProducts": "Aucun produit trouvé"
+  },
+  "product": {
+    "materials": "Matériaux",
+    "culturalSignificance": "Signification culturelle",
+    "quantity": "Quantité",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "details": "Détails",
+    "characteristics": "Caractéristiques",
+    "sizeGuide": "Guide des tailles",
+    "shipping": "Livraison & Retours",
+    "reviews": "Avis clients",
+    "noReviews": "Aucun avis pour le moment",
+    "writeReview": "Écrire un avis"
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide",
+    "continueShopping": "Continuer mes achats",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "tax": "Taxes",
+    "total": "Total",
+    "checkout": "Passer commande",
+    "remove": "Retirer",
+    "itemAdded": "Article ajouté au panier"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "customerInfo": "Informations client",
+    "name": "Nom complet",
+    "email": "Email",
+    "phone": "Téléphone",
+    "shippingAddress": "Adresse de livraison",
+    "address": "Adresse",
+    "city": "Ville",
+    "postalCode": "Code postal",
+    "country": "Pays",
+    "payment": "Paiement",
+    "placeOrder": "Confirmer la commande",
+    "orderSummary": "Récapitulatif",
+    "processing": "Traitement en cours..."
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "L'Excellence dans la Bijouterie Judaïque",
+    "story": "Barukh Sagit Jewelry est né d'une passion pour l'artisanat d'exception et le patrimoine judaïque. Chaque création est le fruit d'un savoir-faire transmis de génération en génération, alliant techniques traditionnelles et design contemporain.",
+    "craftsmanship": "Savoir-faire",
+    "craftsmanshipText": "Nos artisans travaillent avec les métaux précieux les plus fins pour créer des pièces uniques qui traverseront le temps.",
+    "heritage": "Héritage",
+    "heritageText": "Chaque bijou porte en lui des symboles ancestraux chargés de sens et de spiritualité.",
+    "quality": "Qualité",
+    "qualityText": "Nous sélectionnons uniquement les matériaux les plus nobles pour garantir l'excellence de chaque création."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Nous sommes à votre écoute",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "success": "Message envoyé avec succès",
+    "error": "Erreur lors de l'envoi du message"
+  },
+  "footer": {
+    "description": "Bijouterie judaïque de luxe",
+    "navigation": "Navigation",
+    "information": "Informations",
+    "delivery": "Livraison",
+    "returns": "Retours",
+    "terms": "CGV",
+    "privacy": "Confidentialité",
+    "followUs": "Suivez-nous",
+    "copyright": "© 2025 Barukh Sagit Jewelry. Tous droits réservés."
+  }
+}

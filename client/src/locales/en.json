@@ -1,0 +1,127 @@
+{
+  "common": {
+    "currency": "EUR",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "learnMore": "Learn More",
+    "shopNow": "Shop Now",
+    "viewCollection": "View Collection",
+    "new": "New",
+    "featured": "Featured"
+  },
+  "nav": {
+    "home": "Home",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "hero": {
+    "title": "Judaica Jewelry",
+    "subtitle": "Exclusive Collection",
+    "description": "Unique creations celebrating timeless heritage and beauty",
+    "cta": "Discover Collection"
+  },
+  "home": {
+    "collectionsTitle": "Our Collections",
+    "collectionsSubtitle": "Explore our selection of luxury Judaica jewelry",
+    "featuredTitle": "Featured Pieces",
+    "featuredSubtitle": "Discover our most iconic creations",
+    "storyTitle": "Our Story",
+    "storyDescription": "Barukh Sagit Jewelry perpetuates a tradition of excellence in creating luxury Judaica jewelry. Each piece is crafted with passion and expertise, blending ancestral symbolism with contemporary design."
+  },
+  "collections": {
+    "title": "Collections",
+    "all": "All",
+    "chai": "Chai",
+    "mezuzah": "Mezuzah",
+    "starOfDavid": "Star of David",
+    "hamsa": "Hamsa",
+    "rings": "Rings",
+    "necklaces": "Necklaces",
+    "bracelets": "Bracelets",
+    "earrings": "Earrings",
+    "sortBy": "Sort by",
+    "sortNewest": "Newest",
+    "sortPriceLow": "Price: Low to High",
+    "sortPriceHigh": "Price: High to Low",
+    "sortPopular": "Popular",
+    "noProducts": "No products found"
+  },
+  "product": {
+    "materials": "Materials",
+    "culturalSignificance": "Cultural Significance",
+    "quantity": "Quantity",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "details": "Details",
+    "characteristics": "Characteristics",
+    "sizeGuide": "Size Guide",
+    "shipping": "Shipping & Returns",
+    "reviews": "Customer Reviews",
+    "noReviews": "No reviews yet",
+    "writeReview": "Write a Review"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "total": "Total",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "itemAdded": "Item added to cart"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "customerInfo": "Customer Information",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "shippingAddress": "Shipping Address",
+    "address": "Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "payment": "Payment",
+    "placeOrder": "Place Order",
+    "orderSummary": "Order Summary",
+    "processing": "Processing..."
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Excellence in Judaica Jewelry",
+    "story": "Barukh Sagit Jewelry was born from a passion for exceptional craftsmanship and Jewish heritage. Each creation is the result of know-how passed down through generations, combining traditional techniques with contemporary design.",
+    "craftsmanship": "Craftsmanship",
+    "craftsmanshipText": "Our artisans work with the finest precious metals to create unique pieces that will stand the test of time.",
+    "heritage": "Heritage",
+    "heritageText": "Each piece carries ancestral symbols filled with meaning and spirituality.",
+    "quality": "Quality",
+    "qualityText": "We select only the noblest materials to guarantee the excellence of each creation."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We're here to help",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent successfully",
+    "error": "Error sending message"
+  },
+  "footer": {
+    "description": "Luxury Judaica Jewelry",
+    "navigation": "Navigation",
+    "information": "Information",
+    "delivery": "Delivery",
+    "returns": "Returns",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "followUs": "Follow Us",
+    "copyright": "© 2025 Barukh Sagit Jewelry. All rights reserved."
+  }
+}
