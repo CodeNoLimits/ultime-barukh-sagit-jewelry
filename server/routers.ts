@@ -40,6 +40,32 @@ export const appRouter = router({
         return await db.getAllProducts(input);
       }),
 
+    getAllPaginated: publicProcedure
+      .input(z.object({
+        categoryId: z.number().optional(),
+        isFeatured: z.boolean().optional(),
+        isNew: z.boolean().optional(),
+        page: z.number().default(1),
+        pageSize: z.number().default(20),
+        sortBy: z.enum(['price-asc', 'price-desc', 'newest', 'popular']).optional(),
+      }))
+      .query(async ({ input }) => {
+        const { page, pageSize, ...filters } = input;
+        const offset = (page - 1) * pageSize;
+        const result = await db.getProductsWithCount({
+          ...filters,
+          limit: pageSize,
+          offset,
+        });
+        return {
+          products: result.products,
+          total: result.total,
+          page,
+          pageSize,
+          totalPages: Math.ceil(result.total / pageSize),
+        };
+      }),
+
     getBySlug: publicProcedure
       .input(z.object({
         slug: z.string(),

@@ -177,6 +177,62 @@ export async function getAllProducts(options?: {
   return await query;
 }
 
+export async function getProductsWithCount(options?: {
+  categoryId?: number;
+  isFeatured?: boolean;
+  isNew?: boolean;
+  limit?: number;
+  offset?: number;
+  sortBy?: 'price-asc' | 'price-desc' | 'newest' | 'popular';
+}) {
+  const db = await getDb();
+  if (!db) return { products: [], total: 0 };
+
+  // Apply filters
+  const conditions = [eq(products.isActive, true)];
+  if (options?.categoryId) {
+    conditions.push(eq(products.categoryId, options.categoryId));
+  }
+  if (options?.isFeatured !== undefined) {
+    conditions.push(eq(products.isFeatured, options.isFeatured));
+  }
+  if (options?.isNew !== undefined) {
+    conditions.push(eq(products.isNew, options.isNew));
+  }
+
+  // Get total count
+  const countResult = await db
+    .select({ count: sql<number>`count(*)` })
+    .from(products)
+    .where(and(...conditions));
+  const total = Number(countResult[0]?.count || 0);
+
+  // Get products with pagination
+  let query = db.select().from(products).where(and(...conditions)).$dynamic();
+
+  // Apply sorting
+  if (options?.sortBy === 'price-asc') {
+    query = query.orderBy(asc(products.priceEurCents));
+  } else if (options?.sortBy === 'price-desc') {
+    query = query.orderBy(desc(products.priceEurCents));
+  } else if (options?.sortBy === 'newest') {
+    query = query.orderBy(desc(products.createdAt));
+  } else {
+    query = query.orderBy(desc(products.isFeatured), desc(products.createdAt));
+  }
+
+  // Apply pagination
+  if (options?.limit) {
+    query = query.limit(options.limit);
+  }
+  if (options?.offset) {
+    query = query.offset(options.offset);
+  }
+
+  const productsList = await query;
+  return { products: productsList, total };
+}
+
 export async function getProductBySlug(slug: string) {
   const db = await getDb();
   if (!db) return undefined;
